@@ -1,9 +1,4 @@
-# Yolov5 + Deep Sort with PyTorch
-
-
-
-
-
+# Yolov5 + Deep Sort with PyTorch (Lane Detection and Collision Warning added))
 <div align="center">
 <p>
 <img src="MOT16_eval/track_pedestrians.gif" width="400"/> <img src="MOT16_eval/track_all.gif" width="400"/> 
@@ -15,7 +10,8 @@
 <a href="https://colab.research.google.com/drive/18nIqkBr68TkK8dHdarxTco6svHUJGggY?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"></a>
  
 </div>
-
+<br>
+<br>
 </div>
 
 
@@ -117,6 +113,17 @@ Can be saved to your experiment folder `track/expN` by
 ```bash
 python3 track.py --source ... --save-txt
 ```
+<br>
+
+## Lane Detection and Collision Warning added
+### This project is implemented in Python and uses OpenCV image processing library.
+<br>
+<div>
+<p>
+<img src="data/demo.gif" width="500"/> 
+</p>
+</div>
+<br>
 
 
 ## Cite
@@ -131,3 +138,7 @@ If you find this project useful in your research, please consider cite:
     year={2020}
 }
 ```
+## Acknowledgments
+* [Yolov5_deepsort_pytoch](https://github.com/mikel-brostrom/Yolov5_DeepSort_Pytorch.git)
+* [Advanced Lane Detection](https://github.com/nicedaddy/Advanced-Lane-Detection)
+* [Deep SORT Repository](https://github.com/nwojke/deep_sort)
